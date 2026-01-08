@@ -17,12 +17,13 @@ The goal of this project is not just to install Drupal CMS, but to **demonstrate
 
 ## What’s Included
 
-- **Drupal CMS 1.1.x**: A curated Drupal distribution with smart defaults  
+- **Drupal CMS 1.3.x**: A curated Drupal distribution with smart defaults  
 - **DDEV**: Local dev tooling inside the Codespace container  
 - **Makefile**: Automates setup (cleaning, starting DDEV, Composer install)  
 - **Devcontainer config**: VS Code & Codespaces setup with useful PHP extensions  
 - **Post-install hooks**: Automatically fetch and copy the Drupal CMS profile  
-- **Contrib modules** like `webform`, `project_browser`, and a full set of CMS tools  
+- **Extra Hero recipe**: Adds hero components and sample content to showcase Basecore's hero patterns  
+- **Contrib modules** like `webform`, `project_browser`, `extra_project_browser`, and a full set of CMS tools  
 - **Two free, contributed Drupal themes**:
   - [**CorporateClean**](https://www.drupal.org/project/corporateclean)
   - [**BaseCore**](https://www.drupal.org/project/basecore)
