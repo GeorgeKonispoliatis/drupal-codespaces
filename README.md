@@ -77,6 +77,27 @@ make setup     # Run Composer install and post-install hooks
 make launch    # Open the Drupal CMS instance in the browser
 ```
 
+## Extra Hero Recipe (Basecore)
+
+This template includes the `extra_hero` recipe and the `extra_project_browser` module.
+
+After installation, enable them using Drush inside the DDEV container:
+
+```bash
+ddev exec "cd cms && vendor/bin/drush en -y extra_project_browser extra_hero"
+```
+
+Then apply the recipe:
+
+```bash
+ddev exec "cd cms && vendor/bin/drush recipe extra_hero"
+```
+
+You can also enable them via the admin UI:
+
+- Enable `Project Browser` and `Extra Project Browser` modules in Extend.
+- Open Project Browser and install the **Extra Hero** recipe from there.
+
 ## Requirements
 
 > You don’t need to install anything locally to use this — just a GitHub account with Codespaces enabled.
